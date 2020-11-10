@@ -22,7 +22,7 @@ import org.gradle.api.tasks.*
 @CacheableTask
 class SolidityResolve extends DefaultTask {
 
-    private static Set<String> PROVIDERS = ["@openzeppelin/contracts", "@uniswap/lib"]
+    private static Set<String> PROVIDERS = ["@openzeppelin/contracts", "@uniswap/lib", "@baseline-protocol/contracts", "@yearn/interfaces"]
 
     private FileTree sources
 
